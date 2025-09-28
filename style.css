@@ -80,6 +80,7 @@ body {
   gap: 10px;
   box-sizing: border-box;
   position: relative;
+  min-width: 435px;
 }
 
 #email-form input {
@@ -114,7 +115,6 @@ body {
 
 .error-message {
     display: none;
-    /* position: absolute; */
     width: 100%;
     font-weight: 700;
     font-size: 13px;
@@ -214,6 +214,7 @@ body {
         margin-left: 0px;
         flex-direction: column;
         position: relative;
+        min-width: 300px;
     }
 
     #email-form {
@@ -233,9 +234,10 @@ body {
     .error-message {
         position: absolute;
         bottom: 37px;
-        left: 0;
+        left: -2%;
         width: 100%;
-        text-align: right;
+        /* max-width: max-content; */
+        /* text-align: right; */
         margin: 0; 
     }
     .secondRow {
