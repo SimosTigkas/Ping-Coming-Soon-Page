@@ -100,7 +100,7 @@ body {
     height: 40px;
     border: none;
     border-radius: 20px;
-    background-color: hsl(223, 87%, 63%);
+    background-color: hsl(223, 87%, 53%);
     color: white;
     font-size: 14px;
     font-weight: 700;
@@ -115,7 +115,7 @@ body {
     width: 100%;
     font-weight: 700;
     font-size: 13px;
-    color: hsl(0, 100%, 66%);
+    color: hsl(0, 100%, 46%);
     position: absolute;
     bottom: -20px;
     right: 35%;

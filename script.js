@@ -8,13 +8,13 @@ form.addEventListener("submit", (e) => {
     let isValid = true;
     if (!emailInput.value) {
         emailError.classList.add('show-error');
-        emailInput.style.border = '1px solid hsl(0, 100%, 66%)';
+        emailInput.style.border = '1px solid hsl(0, 100%, 46%)';
         isValid = false;
     }
     else if (!emailIsValid(emailInput.value)) {
         emailError.textContent = 'Provide a valid email address';
         emailError.classList.add('show-error');
-        emailInput.style.border = '1px solid hsl(0, 100%, 66%)';
+        emailInput.style.border = '1px solid hsl(0, 100%, 46%)';
         isValid = false;
     }
     else {
